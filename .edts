@@ -1,0 +1,4 @@
+:name "rustem"
+:node-sname "rustem_edit"
+:lib-dirs '("deps")
+;; :start-command "erl -sname rustem_edit"

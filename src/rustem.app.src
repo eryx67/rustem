@@ -1,0 +1,12 @@
+{application, rustem,
+ [
+  {description, "Rusian words stemmer."},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {modules, [rustem,rustem_tests]},
+  {env, []}
+ ]}.
