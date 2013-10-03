@@ -7,6 +7,6 @@
                   kernel,
                   stdlib
                  ]},
-  {modules, [rustem,rustem_tests]},
+  {modules, [rustem,rustem_tests,rustem_riak_analizer]},
   {env, []}
  ]}.

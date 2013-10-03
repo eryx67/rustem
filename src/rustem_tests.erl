@@ -134,4 +134,7 @@
 stem_test_() ->
     [{V1, ?_assertEqual(rustem:stem(V1), V2)} || {V1, V2} <- ?TEST_SAMPLES].
 
+analizer_test_() ->
+    [?_assertEqual(rustem_riak_analizer:standard_analyzer_factory(<<"много еще ентих французских булок"/utf8>>, 3), {ok,[skip,skip,<<"ент"/utf8>>,<<"французск"/utf8>>, <<"булок"/utf8>>]})].
+
 -endif.
